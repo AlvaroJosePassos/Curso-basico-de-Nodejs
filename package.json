@@ -1,0 +1,22 @@
+{
+  "name": "full-project-node",
+  "version": "1.0.0",
+  "description": "Basico de tudo do Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "full-project-node": "file:",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1"
+  }
+}
